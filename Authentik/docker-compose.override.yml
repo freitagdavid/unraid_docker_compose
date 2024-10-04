@@ -1,0 +1,25 @@
+services:
+  postgresql:
+    labels:
+      net.unraid.docker.managed: 'composeman'
+      net.unraid.docker.icon: ''
+      net.unraid.docker.webui: ''
+      net.unraid.docker.shell: ''
+  redis:
+    labels:
+      net.unraid.docker.managed: 'composeman'
+      net.unraid.docker.icon: ''
+      net.unraid.docker.webui: ''
+      net.unraid.docker.shell: ''
+  server:
+    labels:
+      net.unraid.docker.managed: 'composeman'
+      net.unraid.docker.icon: 'https://raw.githubusercontent.com/ibracorp/app-logos/main/authentik/authentik.png'
+      net.unraid.docker.webui: 'http://[ip]:[port:9000]'
+      net.unraid.docker.shell: ''
+  worker:
+    labels:
+      net.unraid.docker.managed: 'composeman'
+      net.unraid.docker.icon: ''
+      net.unraid.docker.webui: ''
+      net.unraid.docker.shell: ''
